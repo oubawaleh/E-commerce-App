@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import { users, products } from "./data";
-import { UserModel } from "./models/User";
-import { ProductModel } from "./models/Product";
+import { UserModel } from "../models/User";
+import { ProductModel } from "../models/Product";
 
 mongoose.connect("mongodb://localhost:27017");
 const db = mongoose.connection;
