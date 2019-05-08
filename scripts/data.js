@@ -1,5 +1,5 @@
 export const users = [
-  { username: "admin", email: "admin@company.org", role: "admin" },
+  { username: "admin", email: "oubawaleh@gmail.com", role: "admin" },
   { username: "lmillin0", email: "ddrissell0@stanford.edu", role: "customer" },
   { username: "dlarkings1", email: "hgilks1@thetimes.co.uk", role: "customer" },
   { username: "cbillinge2", email: "enoorwood2@state.gov", role: "customer" },

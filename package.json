@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node ./index.js",
+    "start": "JWT_SECRET=MERN nodemon --exec babel-node ./index.js",
     "db:seed": "babel-node ./scripts/seed.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,15 +15,21 @@
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",
     "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "babel-jest": "^24.7.1",
-    "body-parser": "^1.19.0",
     "jest": "^24.7.1",
     "nodemon": "^1.18.11",
     "regenerator-runtime": "^0.13.2"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "helmet": "^3.18.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.5.4"
   }
 }
