@@ -7,10 +7,12 @@ export default jwt({
     if (
       req.headers &&
       req.headers.authorization &&
-      req.headers.authorization.split(" ")[0] === "Bearer"
+      req.headers.authorization.split(" ")[0] === "Bearer" //1
     ) {
-      return req.headers.authorization.split(" ")[1]; // token
+      return req.headers.authorization.split(" ")[1]; // token//2
     }
     return null;
   }
+
+  
 });

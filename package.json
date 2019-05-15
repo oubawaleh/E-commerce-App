@@ -6,7 +6,7 @@
   "scripts": {
     "start": "JWT_SECRET=MERN nodemon --exec babel-node ./index.js",
     "db:seed": "babel-node ./scripts/seed.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",

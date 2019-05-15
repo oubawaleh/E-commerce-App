@@ -36,4 +36,8 @@ export default app => {
       res.status(200).end();
     }
   });
+
+  app.get("/v1/logout", async (req, res) => {
+    console.log(req.headers);
+  });
 };
