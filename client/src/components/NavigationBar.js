@@ -20,7 +20,7 @@ export default class NavigationBar extends Component {
           <Fragment>
             <Link to="/cart">my cart ({itemsInCart})</Link>
             <Link to="/orders">orders</Link>
-            <a href="/logout">logout</a>
+            <Link to="/">logout</Link>
           </Fragment>
         ) : (
           <Link to="/account">account</Link>
