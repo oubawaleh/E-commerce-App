@@ -8,19 +8,19 @@ export default class NavigationBar extends Component {
 
     return (
       <div className="NavigationBar">
-        <Link to="/">home</Link>
-        <Link to="/category/sporty">#sporty</Link>
-        <Link to="/category/tshirts">#tshirts</Link>
-        <Link to="/category/jackets">#jackets</Link>
-        <Link to="/category/sweaters">#sweaters</Link>
-        <Link to="/category/pants">#pants</Link>
-        <Link to="/category/sneakers">#sneakers</Link>
-        <Link to="/category/boots">#boots</Link>
+        <Link to="/">Home</Link>
+        <Link to="/category/sporty">#Sporty</Link>
+        <Link to="/category/tshirts">#Tshirts</Link>
+        <Link to="/category/jackets">#Jackets</Link>
+        <Link to="/category/sweaters">#Sweaters</Link>
+        <Link to="/category/pants">#Pants</Link>
+        <Link to="/category/sneakers">#Sneakers</Link>
+        <Link to="/category/boots">#Boots</Link>
         {isLoggedIn ? (
           <Fragment>
             <Link to="/cart">my cart ({itemsInCart})</Link>
             <Link to="/orders">orders</Link>
-            <a href="/logout">Logout</a>
+            <a href="/logout">logout</a>
           </Fragment>
         ) : (
           <Link to="/account">account</Link>
