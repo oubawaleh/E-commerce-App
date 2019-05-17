@@ -1,34 +1,51 @@
-## Functionalities:
+# E-commerce Demo
 
-1. User Registration
-2. User Search product
+This is a sample application that demonstrates an E-commerce website using the MERN stack. The application loads
+products a MongoDB database and displays them. Users can select to display products in a single category. Users can
+click on any product to get more information including pricing. Users can select items and
+add them to their shopping cart. Users can checkout and fill out form for shipping.
 
-## CRUD Operations like
+Here are screenshots that show the e-commerce demo application in use.
 
-- User can add product to his/her cart
-- Admin can add product to the product list
-- Admin can edit the product details
-- Admin can delete the product from the list
+**Home Page**
+![Home Page](/Users/oubawaleh/screenshots/home.png?raw=true "Optional Title")
 
-## Security
+---
 
-- User can login the site
-- The entire site will change according the role. Whether the client is User or Admin
-- User can logout after completing
+**Item Detail Page**
+![Item Detail](/Users/oubawaleh/screenshots/single item.png?raw=true "Optional Title")
 
-## Web flow
+---
 
-After adding products the cart the User can checkout:-
+**Shopping Cart**
+![Shopping Cart](/Users/oubawaleh/screenshots/shoppingcart.png?raw=true "Shopping Cart")
 
-- Confirming User Details
-- Confirming Shipping and Billing Address
-- Receipt
-- If the user cancel the webflow it will go to cancel Page
-- If the user submits the checkout it will go to thank you page.
+## Getting Started
 
-## Tools and Technologies:
+To get started you can simply clone this `webstore` repository and install the dependencies.
 
-1. Bootstrap, Node, Express, Javascript, React,
-2. Database : Mongodb
-3. Version control: Git
-4. Testing: Jest
+Clone the `webstore` repository using git:
+
+```bash
+git clone git@github.com:oubawaleh/Webstore-server.git
+cd server cd client
+```
+
+Install dependencies with this command:
+
+```bash
+npm install
+```
+
+Run the application with this command:
+
+```bash
+npm start
+```
+
+## Tech Stack
+
+- React.js
+- Node.js
+- Express.js
+- MongoDB
