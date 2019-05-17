@@ -4,7 +4,7 @@ class AuthenticationService {
   generate = async user => {
     return await jwt.sign(
       {
-        exp: Math.floor(Date.now() / 1000) + 7 * 24 * 60 * 60, // expires in 1 week
+        exp: Math.floor(Date.now() / 1000) + 1 * 24 * 60 * 60, //expires in 1 day
         data: user
       },
       process.env.JWT_SECRET
