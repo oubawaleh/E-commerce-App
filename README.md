@@ -22,12 +22,12 @@ Here are screenshots that show the e-commerce demo application in use.
 
 ## Getting Started
 
-To get started you can simply clone this `webstore` repository and install the dependencies.
+To get started you can simply clone this `e-commerce` repository and install the dependencies.
 
-Clone the `webstore` repository using git:
+Clone the `e-commerce` repository using git:
 
 ```bash
-git clone git@github.com:oubawaleh/Webstore-server.git
+git clone https://github.com/oubawaleh/E-commerce-App
 cd server cd client
 ```
 
