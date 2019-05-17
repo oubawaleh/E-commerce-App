@@ -1,6 +1,6 @@
-# E-commerce Demo
+# e-commerce App
 
-This is a sample application that demonstrates an E-commerce website using the MERN stack. The application loads
+This is a sample application that demonstrates an e-commerce website using the MERN stack. The application loads
 products a MongoDB database and displays them. Users can select to display products in a single category. Users can
 click on any product to get more information including pricing. Users can select items and
 add them to their shopping cart. Users can checkout and fill out form for shipping.
