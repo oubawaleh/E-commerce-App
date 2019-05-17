@@ -24,7 +24,7 @@ After adding products the cart the User can checkout:-
 - Confirming Shipping and Billing Address
 - Receipt
 - If the user cancel the webflow it will go to cancel Page
-- If the user submits the checkout it will go to thank you page with the timing of delivery Report
+- If the user submits the checkout it will go to thank you page.
 
 ## Tools and Technologies:
 
