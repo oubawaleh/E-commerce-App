@@ -13,7 +13,7 @@ Here are screenshots that show the e-commerce demo application in use.
 ---
 
 **Item Detail Page**
-![Item Detail](/screenshots/single item.png?raw=true "Optional Title")
+![Item Detail](/screenshots/singleitem.png?raw=true "Optional Title")
 
 ---
 
