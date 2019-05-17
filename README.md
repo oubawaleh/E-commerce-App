@@ -8,17 +8,17 @@ add them to their shopping cart. Users can checkout and fill out form for shippi
 Here are screenshots that show the e-commerce demo application in use.
 
 **Home Page**
-![Home Page](/Users/oubawaleh/screenshots/home.png?raw=true "Optional Title")
+![Home Page](/screenshots/home.png?raw=true "Optional Title")
 
 ---
 
 **Item Detail Page**
-![Item Detail](/Users/oubawaleh/screenshots/single item.png?raw=true "Optional Title")
+![Item Detail](/screenshots/single item.png?raw=true "Optional Title")
 
 ---
 
 **Shopping Cart**
-![Shopping Cart](/Users/oubawaleh/screenshots/shoppingcart.png?raw=true "Shopping Cart")
+![Shopping Cart](/screenshots/shoppingcart.png?raw=true "Shopping Cart")
 
 ## Getting Started
 
