@@ -5,7 +5,6 @@ import "./NavigationBar.css";
 export default class NavigationBar extends Component {
   render() {
     const { isLoggedIn, itemsInCart } = this.props;
-
     return (
       <div className="NavigationBar">
         <Link to="/">Home</Link>
@@ -20,11 +19,11 @@ export default class NavigationBar extends Component {
           <Fragment>
             <Link to="/cart">my cart ({itemsInCart})</Link>
             <Link to="/orders">orders</Link>
-            <Link to="/">logout</Link>
+            <Link to="/" onClick={this.props.logoutUser}>logout</Link>
           </Fragment>
         ) : (
-          <Link to="/account">account</Link>
-        )}
+            <Link to="/account">account</Link>
+          )}
       </div>
     );
   }

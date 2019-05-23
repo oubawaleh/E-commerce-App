@@ -47,6 +47,13 @@ class App extends Component {
     }
   };
 
+  logoutUser = () => {
+    store.remove('authToken');
+    this.setState({
+      user: undefined
+    })
+  }
+
   addToCart = item => {
     const { itemsInCart } = this.state;
     itemsInCart.push(item);
@@ -72,6 +79,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <NavigationBar
+            logoutUser={this.logoutUser}
             isLoggedIn={isLoggedIn}
             itemsInCart={this.state.itemsInCart.length}
           />
